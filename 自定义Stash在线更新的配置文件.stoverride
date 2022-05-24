@@ -1,0 +1,129 @@
+name: 自定义在线更新的配置文件
+desc: 添加分组&规则：1.pinterest 2.instagram 3.Spotify
+
+proxy-groups:
+  - name: 📷 instagram
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - DIRECT
+  - name: 🎵 Spotify
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - DIRECT
+  - name: 🌟 pinterest
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - DIRECT
+rules:
+ - DOMAIN-SUFFIX,accountkit.com,📷 instagram
+ - DOMAIN-SUFFIX,facebook-hardware.com,📷 instagram
+ - DOMAIN-SUFFIX,fbe2e.com,📷 instagram
+ - DOMAIN-SUFFIX,fb.gg,📷 instagram
+ - DOMAIN-SUFFIX,fbinfra.net,📷 instagram
+ - DOMAIN-SUFFIX,fbpigeon.com,📷 instagram
+ - DOMAIN-SUFFIX,fbwat.ch,📷 instagram
+ - DOMAIN-SUFFIX,m-freeway.com,📷 instagram
+ - DOMAIN-SUFFIX,wit.ai,📷 instagram
+ - DOMAIN-SUFFIX,parse.com,📷 instagram
+ - DOMAIN-SUFFIX,fb.watch,📷 instagram
+ - DOMAIN-SUFFIX,fbaddins.com,📷 instagram
+ - DOMAIN-SUFFIX,fbcdn.net,📷 instagram
+ - DOMAIN-SUFFIX,fbsbx.com,📷 instagram
+ - DOMAIN-SUFFIX,fbworkmail.com,📷 instagram
+ - DOMAIN-SUFFIX,staticxx.facebook.com,🍃 应用净化
+ - DOMAIN-KEYWORD,fbcdn,📷 instagram
+ - DOMAIN-KEYWORD,facebook,📷 instagram
+ - DOMAIN-SUFFIX,facebook.br,📷 instagram
+ - DOMAIN-SUFFIX,facebook.com,📷 instagram
+ - DOMAIN-SUFFIX,facebook.design,📷 instagram
+ - DOMAIN-SUFFIX,facebook.hu,📷 instagram
+ - DOMAIN-SUFFIX,facebook.in,📷 instagram
+ - DOMAIN-SUFFIX,facebook.net,📷 instagram
+ - DOMAIN-SUFFIX,facebook.nl,📷 instagram
+ - DOMAIN-SUFFIX,facebook.se,📷 instagram
+ - DOMAIN-SUFFIX,facebookmail.com,📷 instagram
+ - DOMAIN-SUFFIX,facebookquotes4u.com,📷 instagram
+ - DOMAIN-SUFFIX,facebook.com,📷 instagram
+ - DOMAIN-SUFFIX,thefacebook.com,📷 instagram
+ - DOMAIN-SUFFIX,fb.com,📷 instagram
+ - DOMAIN-SUFFIX,fb.me,📷 instagram
+ - DOMAIN-SUFFIX,fbcdn.com,📷 instagram
+ - DOMAIN-SUFFIX,fbcdn.net,📷 instagram
+ - IP-CIDR,31.13.24.0/21,📷 instagram,no-resolve
+ - IP-CIDR,31.13.64.0/18,📷 instagram,no-resolve
+ - IP-CIDR,45.64.40.0/22,📷 instagram,no-resolve
+ - IP-CIDR,66.220.144.0/20,📷 instagram,no-resolve
+ - IP-CIDR,69.63.176.0/20,📷 instagram,no-resolve
+ - IP-CIDR,69.171.224.0/19,📷 instagram,no-resolve
+ - IP-CIDR,74.119.76.0/22,📷 instagram,no-resolve
+ - IP-CIDR,103.4.96.0/22,📷 instagram,no-resolve
+ - IP-CIDR,129.134.0.0/17,📷 instagram,no-resolve
+ - IP-CIDR,157.240.0.0/17,📷 instagram,no-resolve
+ - IP-CIDR,173.252.64.0/18,📷 instagram,no-resolve
+ - IP-CIDR,179.60.192.0/22,📷 instagram,no-resolve
+ - IP-CIDR,185.60.216.0/22,📷 instagram,no-resolve
+ - IP-CIDR,204.15.20.0/22,📷 instagram,no-resolve
+ - DOMAIN-KEYWORD,instagram,📷 instagram
+ - DOMAIN-SUFFIX,instagram.com,📷 instagram
+ - DOMAIN-SUFFIX,cdninstagram.com,📷 instagram
+ - DOMAIN-SUFFIX,instagram.com,📷 instagram
+ - DOMAIN-SUFFIX,instagr.am,📷 instagram
+ - DOMAIN-SUFFIX,ig.me,📷 instagram
+ - DOMAIN-KEYWORD,-spotify-com,🎵 Spotify
+ - DOMAIN-KEYWORD,spotify.com,🎵 Spotify
+ - DOMAIN-KEYWORD,spotify,🎵 Spotify
+ - DOMAIN-SUFFIX,pscdn.co,🎵 Spotify
+ - DOMAIN-SUFFIX,scdn.co,🎵 Spotify
+ - DOMAIN-SUFFIX,spoti.fi,🎵 Spotify
+ - DOMAIN-SUFFIX,spotify.com,🎵 Spotify
+ - DOMAIN-SUFFIX,spotifycdn.com,🎵 Spotify
+ - DOMAIN-SUFFIX,spotifycdn.net,🎵 Spotify
+ - DOMAIN-KEYWORD,pinterest,🌟 pinterest
+ - DOMAIN-SUFFIX,pinterest.at,🌟 pinterest
+ - DOMAIN-SUFFIX,pinterest.ca,🌟 pinterest
+ - DOMAIN-SUFFIX,pinterest.co.kr,🌟 pinterest
+ - DOMAIN-SUFFIX,pinterest.co.uk,🌟 pinterest
+ - DOMAIN-SUFFIX,pinterest.com,🌟 pinterest
+ - DOMAIN-SUFFIX,pinterest.com.mx,🌟 pinterest
+ - DOMAIN-SUFFIX,pinterest.de,🌟 pinterest
+ - DOMAIN-SUFFIX,pinterest.dk,🌟 pinterest
+ - DOMAIN-SUFFIX,pinterest.fr,🌟 pinterest
+ - DOMAIN-SUFFIX,pinterest.jp,🌟 pinterest
+ - DOMAIN-SUFFIX,pinterest.nl,🌟 pinterest
+ - DOMAIN-SUFFIX,pinterest.se,🌟 pinterest
+ - DOMAIN-SUFFIX,akapinimg.net,🌟 pinterest
+ - DOMAIN-SUFFIX,pinimg.com,🌟 pinterest
+ - DOMAIN-SUFFIX,pinterest.cl,🌟 pinterest
+ - DOMAIN-SUFFIX,pinterest.com.au,🌟 pinterest
+ - DOMAIN-SUFFIX,pinterest.es,🌟 pinterest
+ - DOMAIN-SUFFIX,pinterestmail.com,🌟 pinterest
+ - DOMAIN-SUFFIX,pinterest.nz,🌟 pinterest
+ - DOMAIN-SUFFIX,pinterest.pt,🌟 pinterest
+ - DOMAIN-SUFFIX,pinterest.ru,🌟 pinterest
