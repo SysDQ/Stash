@@ -1,4 +1,4 @@
-# SW-ACL4SSR-Online-全分组+去广告.yaml
+# 在ACL4SSR的基础上添加了ins+Spotify+Pin的分组
 
 proxy-groups:
   - name: 📷 instagram
