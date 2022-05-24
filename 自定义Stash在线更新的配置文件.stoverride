@@ -1,7 +1,6 @@
 name: 自定义在线更新的配置文件
 desc: 添加分组&规则：1.pinterest 2.instagram 3.Spotify
 
-proxy-groups:
   - name: 📷 instagram
     type: select
     proxies:
