@@ -1,5 +1,4 @@
-# https://raw.githubusercontent.com/SysDQ/Stash/main/%E8%87%AA%E5%AE%9A%E4%B9%89Stash%E5%9C%A8%E7%BA%BF%E6%9B%B4%E6%96%B0%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6.stoverride
-name: 自定义在线更新的配置文件
+name: 在线规则覆写
 desc: 添加分组&规则：1.pinterest 2.instagram 3.Spotify
 
 proxy-groups:
@@ -44,6 +43,7 @@ proxy-groups:
       - DIRECT
 
 rules:
+ - DOMAIN-SUFFIX,emby.ytoo.li,🐟 漏网之鱼
  - DOMAIN-SUFFIX,accountkit.com,📷 instagram
  - DOMAIN-SUFFIX,facebook-hardware.com,📷 instagram
  - DOMAIN-SUFFIX,fbe2e.com,📷 instagram
