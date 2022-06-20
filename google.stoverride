@@ -1,5 +1,5 @@
 name: Google 重定向
-desc: 将 g|google.cn&com.hk重定向回 google.com
+desc: 将 g|google.cn&Safari默认谷歌搜索com.hk重定向回 google.com（在jnlaoshu的Google重定向覆写基础上修改）
 
 http:
   mitm:
