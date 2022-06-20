@@ -1,4 +1,4 @@
-name: Google 重定向
+name: Google 重定向修改版
 desc: 将 g|google.cn&Safari默认谷歌搜索com.hk重定向回 google.com（在jnlaoshu的Google重定向覆写基础上修改）
 
 http:
