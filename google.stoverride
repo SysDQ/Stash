@@ -3,7 +3,6 @@ desc: 将 g|google.cn&Safari默认谷歌搜索com.hk重定向回 google.com（�
 
 http:
   mitm:
-    - google.com.hk
     - g.cn
     - "*.google.cn"
   rewrite:
