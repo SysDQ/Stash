@@ -43,7 +43,7 @@ proxy-groups:
       - DIRECT
 
 rules:
- - IP-CIDR,192.168.0.1,🎯 全球直连,no-resolve
+ - IP-CIDR,192.168.0.1/80,🎯 全球直连,no-resolve
  - DOMAIN-SUFFIX,emby.ytoo.li,🐟 漏网之鱼
  - DOMAIN-SUFFIX,accountkit.com,📷 instagram
  - DOMAIN-SUFFIX,facebook-hardware.com,📷 instagram
