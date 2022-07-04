@@ -43,6 +43,7 @@ proxy-groups:
       - DIRECT
 
 rules:
+ - DOMAIN-SUFFIX,192.168.0.1,🎯 全球直连
  - DOMAIN-SUFFIX,emby.ytoo.li,🐟 漏网之鱼
  - DOMAIN-SUFFIX,accountkit.com,📷 instagram
  - DOMAIN-SUFFIX,facebook-hardware.com,📷 instagram
